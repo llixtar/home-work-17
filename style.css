@@ -1,0 +1,135 @@
+* {
+  font-family: 'Crimson Text', serif;
+  font-family: 'Work Sans', sans-serif;
+}
+
+main {
+  width: 1440px;
+}
+
+.firstScreen {
+  height: 586px;
+  width: 1440px;
+  background: #74C69D;
+
+}
+
+.headerBloc {
+  display: flex;
+  /* justify-content: space-between;   Розподіляє простір між зображенням і меню */
+  align-items: center;
+  height: 50px;
+  width: 1175px;
+  padding-left: 135px;
+  padding-top: 35px;
+}
+
+.tStart {
+  /* height: 50px;
+  width: 99px; */
+  color: #FFFFFF;
+
+  font-family: Work Sans;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+  /* margin-left: 88px;*/
+
+}
+
+.navMenu {
+  display: flex;
+  gap: 30px;
+  padding-left: 649px;
+
+
+}
+
+.navMenu-item {
+  font-family: Work Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: #FFFFFF;
+
+}
+
+.contentBloc {
+  display: flex;
+  /* align-items: center; */
+  height: 380px;
+  width: 1180px;
+  margin-top: 40px;
+  margin-left: 130px;
+  /* background-color: gray; */
+}
+
+.contentBloc-data {
+  width: 416px;
+  height: 299px;
+  /* gap: 25px; */
+
+  margin-top: 40px;
+  margin-left: 0px;
+
+  /* background-color: red; */
+
+}
+
+.contentBloc-pic {
+  width: 645px;
+  height: 379px;
+  margin-left: 120px;
+  /* background-color: orangered; */
+}
+
+.contentBloc-data-WELCOME {
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.contentBloc-data-txt {
+  font-family: Crimson Text;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  width: 416px;
+
+}
+
+.contentBloc-data-txt2 {
+  font-family: Work Sans;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 125%;
+
+
+}
+
+.contentBloc-data-btn {
+
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+
+}
+
+.contentBloc-data-btn-txt {
+
+  width: 74px;
+  height: 25px;
+  padding-top: 13px;
+  padding-left: 48px;
+ 
+  font-family: Work Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  
+
+}
